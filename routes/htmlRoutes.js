@@ -1,12 +1,16 @@
 var db = require("../models");
 
+require("dotenv").config();
+var google = process.env.GOOGLE_KEY;
+
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
     db.Example.findAll({}).then(function(dbExamples) {
       res.render("index", {
         msg: "Welcome!",
-        examples: dbExamples
+        examples: dbExamples,
+        google: google
       });
     });
   });
