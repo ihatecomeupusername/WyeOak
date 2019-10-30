@@ -1,0 +1,154 @@
+<div class="row banner z-depth-2">
+  <div class="col l12" id="mainTitle">
+    <div class="title">Travel Buddy!</div>
+    <div class="subtitle">here to help you find your way</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!--Form-->
+  <div class="row">
+    <div class="col s12 m10 l11">
+      <form>
+        <div class="formInputs">
+          <div id="hoverName">
+            <div class="subtitleTwo">Name Your Trip</div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="nameTrip" type="text" class="validate">
+                <label for="nameTrip">Trip Name</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="formInputs">
+          <div class="subtitleTwo">Current Location</div>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="cityStart" type="text" class="validate">
+              <label for="cityStart">City</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="stateStart" type="text" class="validate">
+              <label for="stateStart">State</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="formInputs" id="stopOne">
+          <div class="subtitleTwo">Stops along the way?</div>
+          <br>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="cityStopOne" type="text" class="validate">
+              <label for="cityStopOne">City</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="stateStopOne" type="text" class="validate">
+              <label for="stateStopOne">State</label>
+            </div>
+            <div class="center-align">
+              <a class="waves-effect waves-light btn-small grey lighten-1" id="moreButton1">More Stops?</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="formInputs" id="stopTwo">
+          <div class="subtitleTwo">Enter Your Second Stop</div>
+          <br>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="cityStopTwo" type="text" class="validate">
+              <label for="cityStopTwo">City</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="stateStopTwo" type="text" class="validate">
+              <label for="stateStopTwo">State</label>
+            </div>
+            <div class="center-align">
+              <a class="waves-effect waves-light btn-small grey lighten-1" id="moreButton2">More Stops?</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="formInputs" id="stopThree">
+          <div class="subtitleTwo">Enter Your Third Stop</div>
+          <br>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="cityStopThree" type="text" class="validate">
+              <label for="cityStopThree">City</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="stateStopThree" type="text" class="validate">
+              <label for="stateStopThree">State</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="formInputs">
+          <div class="subtitleTwo">Final Destination</div>
+          <br>
+          <div class="row">
+            <div class="input-field col s8">
+              <input id="cityEnd" type="text" class="validate">
+              <label for="cityEnd">City</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="stateEnd" type="text" class="validate">
+              <label for="stateEnd">State</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="center-align">
+            <div class="input-field col l12">
+
+              <!-- Saved Trips -->
+              <a class="btn-small waves-effect waves-light red darken-1" id="saveTripButton" href="trips">Saved
+                Trips</a>
+
+              <!--Reset Button-->
+              <a class="waves-effect waves-light btn-small red darken-1" id="resetButton" href="/">Reset</a>
+
+              <!--Submit Button-->
+                <a href="/results"><button class="btn-small waves-effect waves-light red darken-1" id="submitButton" type="submit"
+                name="action">Submit
+                <i class="material-icons right">send</i>
+                </button></a>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <div class="col hide-on-small-only m2 l1 buddyWrapper">
+      <div id="buddy">
+        <i class="medium material-icons">mood</i>
+        <div id="bubbleName">
+          <p class="border animated tdDropInRight">Name your road trip and I'll save it for you.
+          </p>
+        </div>
+        <div id="bubbleView">
+          <p class="border animated tdDropInRight">Click here and I'll show you your saved trips.
+          </p>
+        </div>
+        <div id="bubbleSubmit">
+          <p class="border animated tdDropInRight">Submit the form for route and hotel suggestions.
+          </p>
+        </div>
+        <div id="bubbleMore">
+          <p class="border animated tdDropInRight">Enter up to three different stops on your trip.
+          </p>
+        </div>
+         <div id="bubbleBuddy">
+          <p class="border animated tdStampInSwing">Hello! I'm your road trip Travel Buddy!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
